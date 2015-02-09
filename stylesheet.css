@@ -1,0 +1,67 @@
+* {
+	font-family: Monospace, Monospaced, serif;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: white url(haxor.png) repeat-y top right;
+	background-size: 100%;
+}
+/*Header*/
+#header {
+	margin: 2% 10% 2% 10%;
+	text-align: center;
+}
+#title {
+	font-size: 300%;
+	font-weight: bold;
+}
+#title_text {
+	font-size: 150%;
+}
+/*Content*/
+#about {
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 2%;
+	padding: 0.5%;
+	font-size: 160%;
+	text-align: center;
+}
+#content {
+	font-size: 130%;
+	text-align: center;	
+}
+#content p {
+	text-align: center;
+	border: 4px solid black;
+	background-color: rgba(175, 175, 175, 0.85);
+}
+#content img {
+	padding: 5%;
+}
+.left_content {
+	margin-right: 45%;
+	float: left;
+}
+.right_content {
+	margin-left: 45%;
+	float: right;
+}
+.bordered {
+	border: 4px solid black;
+	background-color: rgba(175, 175, 175, 0.85);
+}
+/*Footer*/
+#footer {
+	padding: 1%;
+	text-align: center;
+	margin: auto;
+	clear: both;
+}
+#footer a {
+	padding: 1%;
+	font-size: 2em;
+	text-decoration: none;
+	color: black;
+}
