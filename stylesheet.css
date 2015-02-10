@@ -7,6 +7,9 @@ body{
 	background: white url(haxor.png) repeat-y top right;
 	background-size: 100%;
 }
+body div div {
+	clear: both;
+}
 /*Header*/
 #header {
 	margin: 2% 10% 2% 10%;
@@ -31,24 +34,29 @@ body{
 #content {
 	font-size: 130%;
 	text-align: center;
+	width: 90%;
+	margin: auto;
 }
 #content p {
 	text-align: center;
 	border: 4px solid black;
 	background-color: rgba(175, 175, 175, 0.85);
+	padding: 1%;
+	margin-top: 5%;
+
 }
 #content img {
-	padding: 5%;
-	height: 10%;
-	width: 10%;
+	padding: 1%;
+	height: 15%;
+	width: 15%;
 }
 .left_content {
-	margin-right: 45%;
 	float: left;
+	width: 70%;
 }
 .right_content {
-	margin-left: 45%;
 	float: right;
+	width: 70%;
 }
 .bordered {
 	border: 4px solid black;
