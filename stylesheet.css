@@ -30,7 +30,7 @@ body{
 }
 #content {
 	font-size: 130%;
-	text-align: center;	
+	text-align: center;
 }
 #content p {
 	text-align: center;
@@ -39,6 +39,8 @@ body{
 }
 #content img {
 	padding: 5%;
+	height: 10%;
+	width: 10%;
 }
 .left_content {
 	margin-right: 45%;
