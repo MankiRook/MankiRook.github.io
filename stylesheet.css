@@ -1,77 +1,63 @@
-* {
-	font-family: Monospace, Monospaced, serif;
-	margin: 0px;
-	padding: 0px;
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    background-image: url("https://cloud.githubusercontent.com/assets/4943215/6139016/439482a4-b187-11e4-89d2-87003e7e336e.jpg");
+    position: relative;
+    color: white;
+    margin: 0;
+    padding: 2em 20%;
+    text-align: center;
 }
-body{
-	background: white url(haxor.png) repeat-y top right;
-	background-size: 100%;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu Mono", serif;
+    font-weight: 400;
+    text-decoration: underline;
 }
-body div div {
-	clear: both;
+blockquote {
+    display: inline-block;
+    font-size: 1.3em;
+    margin: .5em;
+    padding: 0 1em;
+    border-left: 5px solid #33f;
 }
-/*Header*/
-#header {
-	margin: 2% 10% 2% 10%;
-	text-align: center;
+p {
+    margin: 1em .5em;
 }
-#title {
-	font-size: 300%;
-	font-weight: bold;
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color .2s;
 }
-#title_text {
-	font-size: 150%;
+a:hover {
+    color: #aaa;
 }
-/*Content*/
-#about {
-	margin-left: 40%;
-	margin-right: 40%;
-	margin-bottom: 2%;
-	padding: 0.5%;
-	font-size: 160%;
-	text-align: center;
+section {
+    padding: 2em 0;
+    margin: -2%;
 }
-#content {
-	font-size: 130%;
-	text-align: center;
-	width: 90%;
-	margin: auto;
+img {
+    box-shadow: 0 0 5px black;
+    border-radius: 2px;
 }
-#content p {
-	text-align: center;
-	border: 4px solid black;
-	background-color: rgba(175, 175, 175, 0.85);
-	padding: 1%;
-	margin-top: 5%;
-
+header, div {
+    border-radius: 2px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black inset;
+    background-color: rgba(0, 0, 0, .8);
 }
-#content img {
-	padding: 1%;
-	height: 15%;
-	width: 15%;
+footer {
+    padding: 1em;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .8);
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
-.left_content {
-	float: left;
-	width: 70%;
-}
-.right_content {
-	float: right;
-	width: 70%;
-}
-.bordered {
-	border: 4px solid black;
-	background-color: rgba(175, 175, 175, 0.85);
-}
-/*Footer*/
-#footer {
-	padding: 1%;
-	text-align: center;
-	margin: auto;
-	clear: both;
-}
-#footer a {
-	padding: 1%;
-	font-size: 2em;
-	text-decoration: none;
-	color: black;
+section > * {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1.5%;
+    width: 46%;
 }
